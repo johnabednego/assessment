@@ -1,0 +1,145 @@
+h1{
+    height: 75px;  
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 50px;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    color: #00243F;
+    margin-top: -1% !important;
+    margin-left: -4% !important;
+}
+.homeContainer{
+    margin-left: 107px;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+.main{
+    margin-left: -5% !important;
+    margin-top: -13% !important;
+  
+}
+
+@media only screen and (max-device-width:500px ) {
+    /* For mobile phones: */
+    *, body{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+    .homeContainer{
+        margin-left: 10% !important;
+        margin-top: -6% !important;
+    }
+    h1{
+        margin-top: 35% !important;
+    }
+    .main{
+        margin-top: -60% !important;
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column !important;
+    }
+    img{
+        width: 100% !important;
+    }
+    .feed{
+        width: 80% !important;
+        padding-right: 5% !important;
+        height: 80vh !important;
+    }
+    .details{
+        margin-left: 0px !important;
+    }
+    .upper{
+        margin-bottom: 10px !important;
+    }
+    h2{
+        font-size: 16px !important;
+    }
+    p{
+        width: 100% !important;
+        word-wrap: break-word !important;
+        font-family: sans-serif;
+        padding-bottom: 15% !important;
+    }
+    .lower button{
+        height: 4% !important;
+    }
+    .search{
+        display: none !important;
+    }
+    .shift{
+    padding: 2% !important;
+    margin-left: -2% !important ;
+     width: 90% !important;
+     margin-top: 540% !important;
+    }
+    .MuiSvgIcon-fontSizeSmall {
+        font-size: 1rem;
+        margin-bottom: -5% !important;
+    }
+    .back{
+        margin-top: -3% !important;
+        margin-right: -5% !important;
+    }
+    #small_h1{
+        font-size: 20px !important;
+        margin-bottom: -15% !important;
+    }
+    #small_bt{
+        font-size: 11px !important;
+    }
+    .click{
+        font-size: 12px !important;
+    }
+  .detItems {
+      width: 100% !important;
+      padding: 2% !important;
+  }
+  .detItems img{
+      width: 95% !important;
+  }
+  .detFeed{
+      width: 90% !important;
+      margin-top: 3% !important;
+  }
+  .deP{
+      width: 90% !important;
+  }
+  .detShift{
+      margin-top: 50% !important;
+      margin-left: 0% !important;
+      width: 85% !important;
+      padding: 2.5% !important;
+    
+  }
+  #ar-top{
+      margin-top: -4% !important;
+  }
+}
+
+
+
+/* @media only screen and (max-width:800px) {
+    For tablets: 
+    *, body{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width:760px){
+    /* for other medium devices
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: 
+    *, body{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+} */

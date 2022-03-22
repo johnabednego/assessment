@@ -1,0 +1,32 @@
+h1{
+    color: #00243F;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: -3% !important;
+}
+.homeContainer{
+    margin-left: 107px;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+small{
+    margin-left: -4% !important;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px; 
+    color: #5D5D5D;
+}
+.news{
+    margin-top: 1.5% !important;
+   
+}
+.click{
+    cursor: pointer;
+    border: none;
+}

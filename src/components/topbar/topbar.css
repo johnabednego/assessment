@@ -1,0 +1,9 @@
+.heading{
+    top: 0 !important;
+    width: 100% !important;
+    height: 13vh !important;
+    background: #00243F;
+    z-index: 20;
+    position: fixed;
+    
+}

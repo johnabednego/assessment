@@ -1,0 +1,96 @@
+.detFeed{
+    margin-bottom: 5% !important;
+    bottom: 5% !important;
+    width: 60%;
+    height: fit-content !important;
+    left: 7%;
+    top: 33%;
+    background: #FFFFFF;
+    align-items: center;
+    position: relative;
+    margin-left: -6% !important;
+    padding-bottom: 10% !important;
+    z-index: -1;
+}
+.detItems img{
+    width: 100%;
+    height: 60vh;
+    background: #C4C4C4;
+  
+}
+.detItems{
+    display: flex;
+    flex-direction: column;
+    padding: 2% !important;
+    height: fit-content;
+}
+h2 .detH{
+font-family: sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+
+}
+.text{
+    width: fit-content !important;
+}
+.categ{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-left: 0.2% !important;
+
+}
+.detbold{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.detup{
+    margin-top: 1% !important;
+}
+.deP{
+    text-align: justify !important;
+    width: 100%;
+    height: fit-content !important;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-bottom: 3% !important; 
+}
+.deptl{
+    margin-left: 0.5% !important;
+}
+.detShift{
+    width:43%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1%;
+    border:solid #C4C4C4;
+    margin-top: 6%;
+    margin-left: 6.5%;
+    border-radius: 50% !important;
+}
+.space{
+    margin-top: 5% !important;
+    width: 100% !important;
+    height: 10% !important;
+}

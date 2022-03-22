@@ -1,0 +1,52 @@
+.search{
+    margin-top: -30% !important;
+    margin-left: 64% !important;
+    background-color: white;
+    width: 18%;
+    padding: 1%;
+    padding-bottom: 4% !important;
+    position: fixed;
+    height: fit-content !important;
+    
+}
+.input{
+    display: flex;
+}
+.quick{
+    margin-left: -10% !important;
+    margin-top: 1% !important;
+}
+#searchbar{
+    width: 100% !important;
+    height: 3vh !important;
+    padding: 2% !important;
+    outline: none;
+}
+.category h3{
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #00243F;
+padding-top: 7.5% !important;
+padding-bottom: 2.7% !important;
+}
+.set{
+font-family: sans-serif;
+font-style: normal;
+font-weight: 275;
+font-size: 13px;
+line-height: 20px;
+color: #5D5D5D;
+}
+.rec{   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
