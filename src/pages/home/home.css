@@ -1,3 +1,4 @@
+
 h1{
     height: 75px;  
     font-family:sans-serif;
@@ -21,23 +22,36 @@ h1{
   
 }
 
-@media only screen and (max-device-width:500px ) {
-    /* For mobile phones: */
-    *, body{
+@media screen and (min-width: 350px){
+     /* For mobile phones: */
+     *, body{
         margin-right: 0px !important;
         padding-right: 0px !important;
     }
     .homeContainer{
-        margin-left: 10% !important;
-        margin-top: -6% !important;
+        margin-left: 50px !important;
+        height: fit-content;
     }
     h1{
-        margin-top: 35% !important;
+        height: fit-content !important;
     }
     .main{
-        margin-top: -60% !important;
+       margin-top: 20px !important;
+        height: fit-content !important;
     }
-
+    #searchbar{
+        width: 100%;
+        position: relative !important;
+        margin-left: 20px !important;
+        margin-right: 28px !important;
+        margin-bottom: 15px !important;
+        z-index: 0 !important;
+    }
+    .quick{
+        z-index: 1;
+        margin-left: -50px !important;
+        margin-right: 20px !important;
+    }
     .items{
         display: flex;
         flex-direction: column !important;
@@ -48,7 +62,8 @@ h1{
     .feed{
         width: 80% !important;
         padding-right: 5% !important;
-        height: 80vh !important;
+        height: fit-content !important;
+        padding-bottom: 2px !important;
     }
     .details{
         margin-left: 0px !important;
@@ -57,25 +72,30 @@ h1{
         margin-bottom: 10px !important;
     }
     h2{
+        width: auto !important;
         font-size: 16px !important;
+        margin-bottom: 22% !important;
     }
     p{
+        height: auto !important;
         width: 100% !important;
         word-wrap: break-word !important;
         font-family: sans-serif;
-        padding-bottom: 15% !important;
+        padding-bottom: 20px !important;
     }
     .lower button{
+        height: auto !important;
         height: 4% !important;
     }
     .search{
         display: none !important;
     }
     .shift{
+        height: fit-content !important;
     padding: 2% !important;
-    margin-left: -2% !important ;
-     width: 90% !important;
-     margin-top: 540% !important;
+    margin-left: 0px !important ;
+     width: 88% !important;
+     margin-top: 24px !important;
     }
     .MuiSvgIcon-fontSizeSmall {
         font-size: 1rem;
@@ -86,8 +106,11 @@ h1{
         margin-right: -5% !important;
     }
     #small_h1{
+        margin-bottom: 20px !important;
         font-size: 20px !important;
-        margin-bottom: -15% !important;
+    }
+    .news{
+        margin-top: -38px !important;
     }
     #small_bt{
         font-size: 11px !important;
@@ -110,9 +133,9 @@ h1{
       width: 90% !important;
   }
   .detShift{
-      margin-top: 50% !important;
-      margin-left: 0% !important;
-      width: 85% !important;
+      margin-top: -13% !important;
+      margin-left: 3px !important;
+      width: 84% !important;
       padding: 2.5% !important;
     
   }
@@ -121,25 +144,295 @@ h1{
   }
 }
 
+@media screen and (min-width: 500px){
+    /*For tablets:*/ 
+    *, body{
+       margin-right: 0px !important;
+       padding-right: 0px !important;
+   }
+   
+   .homeContainer{
+    margin-left: 50px !important;
+    height: fit-content;
+}
+h1{
+    height: fit-content !important;
+    margin-top: 115px !important;
+}
+.main{
+   margin-top: 20px !important;
+    height: fit-content !important;
+}
 
+#searchbar{
+    width: 90%;
+    position: relative !important;
+    margin-left: 40px !important;
+    margin-right: 28px !important;
+    margin-bottom: 15px !important;
+    z-index: 0 !important;
+}
+.quick{
+    z-index: 1;
+    margin-left: -50px !important;
+    margin-right: 40px !important;
+}
 
-/* @media only screen and (max-width:800px) {
-    For tablets: 
+.items{
+    display: flex;
+    flex-direction: column !important;
+}
+img{
+    width: 100% !important;
+}
+.feed{
+    width: 80% !important;
+    padding-right: 5% !important;
+    height: fit-content !important;
+    padding-bottom: 2px !important;
+}
+.details{
+    margin-left: 0px !important;
+}
+.upper{
+    margin-bottom: 10px !important;
+}
+h2{
+    width: auto !important;
+    font-size: 16px !important;
+}
+p{
+    width: 100% !important;
+    word-wrap: break-word !important;
+    font-family: sans-serif;
+    padding-bottom: 20px !important;
+}
+.lower button{
+    height: 4% !important;
+}
+.search{
+    display: none !important;
+}
+.shift{
+    height: fit-content !important;
+padding: 2% !important;
+margin-left: 0px !important ;
+ width: 88% !important;
+ margin-top: 24px !important;
+}
+.MuiSvgIcon-fontSizeSmall {
+    font-size: 1rem;
+    margin-bottom: -5% !important;
+}
+.back{
+    margin-top: -3% !important;
+    margin-right: -5% !important;
+}
+#small_h1{
+    font-size: 20px !important;
+}
+.news{
+    margin-top: -38px !important;
+}
+#small_bt{
+    font-size: 11px !important;
+}
+.click{
+    font-size: 12px !important;
+}
+.detItems {
+  width: 100% !important;
+  padding: 2% !important;
+}
+.detItems img{
+  width: 95% !important;
+}
+.detFeed{
+  width: 90% !important;
+  margin-top: 3% !important;
+}
+.deP{
+  width: 90% !important;
+}
+.detShift{
+  margin-top: -10% !important;
+  margin-left: 3px !important;
+  width: 84% !important;
+  padding: 2.5% !important;
+
+}
+#ar-top{
+  margin-top: -4% !important;
+}
+}
+
+@media screen and (min-width: 700px){ 
     *, body{
         margin-right: 0px !important;
         padding-right: 0px !important;
     }
-}
-
-
-@media only screen and (max-width:760px){
-    /* for other medium devices
-}
-
-@media only screen and (max-width:500px) {
-    /* For mobile phones: 
-    *, body{
-        margin-right: 0px !important;
-        padding-right: 0px !important;
+    .homeContainer{
+        margin-left: 60px !important;
+        height: fit-content;
     }
-} */
+    h1{
+        margin-top: 115px !important;
+    }
+    .main{
+       margin-top: 40px !important;
+        height: fit-content !important;
+    }
+    .quick{
+        margin-left: -5%;
+        margin-top: 1%;
+    }
+    #searchbar{
+        width: 30% !important;
+        height: fit-content;
+        outline: none;
+        padding: 1%;
+        margin-top: 0.5%;
+        margin-left: 63% !important;
+        z-index: 20;
+        position: fixed;
+        border: solid #e6e4df;
+        position: fixed !important;
+    }
+    .items{
+        display: flex;
+        flex-direction: column !important;
+    }
+    img{
+        width: 100% !important;
+    }
+    .feed{
+        width: 45% !important;
+        padding-right: 2% !important;
+        height: fit-content !important;
+        padding-bottom: 2px !important;
+    }
+    .details{
+        margin-left: 0px !important;
+    }
+    .upper{
+        margin-bottom: 10px !important;
+    }
+    h2{
+        width: auto !important;
+        height: fit-content !important;
+        font-size: 16px !important;
+        margin-bottom: 10% !important;
+    }
+    p{
+        width: 100% !important;
+        word-wrap: break-word !important;
+        font-family: sans-serif;
+        padding-bottom: 20px !important;
+    }
+    .lower button{
+        height: 4% !important;
+    }
+    .search{
+        display: block !important;
+        width: 30% !important;
+        position:fixed !important;
+        margin-left: 58% !important;
+        padding-right: 1% !important;
+        margin-top: 0px !important;
+    }
+    .shift{
+        height: fit-content !important;
+    padding: 2% !important;
+    margin-left: 1.5% !important ;
+     width: 45% !important;
+     margin-top: 24px !important;
+    }
+    .MuiSvgIcon-fontSizeSmall {
+        font-size: 1rem;
+        margin-bottom: -5% !important;
+    }
+    .back{
+        margin-top: -3% !important;
+        margin-right: -5% !important;
+    }
+    #small_h1{
+        margin-top: -2px !important;
+        font-size: 20px !important;
+        margin-bottom: -22px !important;
+    }
+    .news{
+        margin-top: 15px !important;
+    }
+    #small_bt{
+        font-size: 11px !important;
+    }
+    .click{
+        font-size: 12px !important;
+    }
+    .detItems {
+      width: 100% !important;
+      padding: 2% !important;
+    }
+    .detItems img{
+      width: 95% !important;
+    }
+    .detFeed{
+      width: 50% !important;
+      margin-top: 2% !important;
+    }
+    .deP{
+      width: 90% !important;
+    }
+    .detShift{
+      margin-top: -9% !important;
+      margin-left: 1% !important;
+      width: 44.5% !important;
+      padding: 2.5% !important;
+    
+    }
+    #ar-top{
+      margin-top: -4% !important;
+    }
+}
+
+@media screen and (min-width: 907px){
+    .homeContainer{
+        margin-left: 60px !important;
+        height: fit-content;
+        margin-left: 10% !important;
+    }
+    .feed{
+        width: 40% !important;
+    }
+    
+    .shift{
+        width: 40% !important;
+    }
+}
+
+
+
+@media (max-height: 1365px){
+    .homeContainer{
+        margin-top: 100px !important;
+        margin-left: 60px !important;
+        height: fit-content;
+        margin-left: 10% !important;
+    }
+    
+   .input{
+       width: 97% !important;
+   }
+    .quick {
+        margin-top: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+

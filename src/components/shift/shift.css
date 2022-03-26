@@ -40,10 +40,17 @@ a{
 .ar{
     font-size: x-small !important;
 }
-a div:hover{
+
+#num:focus:hover{
     background-color: black;
     color: white;
-    border: solid black;
-    align-items: center;
-    text-align: center; 
+    border-radius: 50%;
+    text-align: left !important;
+    height: 35px;
+    width: 30px;
+    line-height: 36px;
+    float: none;
+    border: 1px solid #ddd;
+    padding-right: 8px !important;
+    position: relative;
 }

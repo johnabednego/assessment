@@ -1,26 +1,33 @@
 .search{
-    margin-top: -30% !important;
-    margin-left: 64% !important;
+    margin-top: -30%;
+    margin-left: 64% ;
     background-color: white;
     width: 18%;
+    padding-top: 3% !important;
     padding: 1%;
-    padding-bottom: 4% !important;
+    padding-bottom: 4%;
     position: fixed;
-    height: fit-content !important;
-    
+    height: fit-content;
+    display: block;
 }
 .input{
     display: flex;
 }
 .quick{
-    margin-left: -10% !important;
-    margin-top: 1% !important;
+    margin-left: -10%;
+    margin-top: 1%;
 }
 #searchbar{
-    width: 100% !important;
-    height: 3vh !important;
-    padding: 2% !important;
+    width: 30%;
+    height: fit-content;
     outline: none;
+    padding: 1%;
+    margin-top: 0.5%;
+    margin-left: 63% !important;
+    z-index: 20;
+    position: fixed;
+    border: solid #e6e4df;
+    
 }
 .category h3{
 font-family: sans-serif;
@@ -31,8 +38,8 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 color: #00243F;
-padding-top: 7.5% !important;
-padding-bottom: 2.7% !important;
+padding-top: 7.5%;
+padding-bottom: 2.7%;
 }
 .set{
 font-family: sans-serif;
@@ -49,4 +56,5 @@ font-weight: 300;
 font-size: 15px;
 line-height: 22px;
 color: #000000;
+cursor: pointer;
 }

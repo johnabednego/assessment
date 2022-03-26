@@ -68,3 +68,128 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+@media only screen and (max-width:800px){
+    /* for other medium devices */
+    *, body{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .homeContainer{
+        margin-left: 10% !important;
+        margin-top: -17% !important;
+    }
+    h1{
+        margin-top: 35% !important;
+    }
+    .main{
+        margin-top: -28% !important;
+        margin-left: -5% !important;
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column !important;
+    }
+    img{
+        width: 100% !important;
+    }
+    .feed{
+        width: 50% !important;
+        padding-right: 2% !important;
+        height: 75vh !important;
+    }
+    .details{
+        margin-left: 0px !important;
+    }
+    .upper{
+        margin-bottom: 10px !important;
+    }
+    h2{
+        font-size: 16px !important;
+    }
+    p{
+        width: 100% !important;
+        word-wrap: break-word !important;
+        font-family: sans-serif;
+        padding-bottom: 15% !important;
+    }
+    .lower button{
+        height: 4% !important;
+    }
+    .search{
+        display: block;
+        width: 25% !important;
+        padding-right:2% !important;
+        padding-left: 2% !important;
+        margin-top: -51% !important;
+        margin-left: 60% !important;
+    }
+    .shift{
+        padding: 2% !important;
+        margin-left: -2% !important;
+        width: 50% !important;
+        margin-top: 240% !important;
+    }
+    .MuiSvgIcon-fontSizeSmall {
+        font-size: 1rem;
+        margin-bottom: -5% !important;
+    }
+    .back{
+        margin-top: -3% !important;
+        margin-right: -5% !important;
+    }
+    #small_h1{
+        font-size: 20px !important;
+        margin-bottom: -8% !important;
+    }
+    #small_bt{
+        font-size: 11px !important;
+    }
+    .click{
+        font-size: 12px !important;
+    }
+  .detItems {
+      width: 100% !important;
+      padding: 2% !important;
+  }
+  .detItems img{
+      width: 95% !important;
+  }
+  .detFeed{
+    width: 60% !important;
+    margin-top: 3% !important;
+  }
+  .deP{
+      width: 90% !important;
+  }
+  .detShift{
+    margin-top: 22% !important;
+    margin-left: 0% !important;
+    width: 56% !important;
+    padding: 2.5% !important;
+    
+  }
+  #ar-top{
+      margin-top: -4% !important;
+  }
+
+#searchbar {
+    width: 90% !important;
+}
+.input{
+    margin-top: 1%;
+}
+
+}
+
+@media only screen and (max-width:100px) {
+   
+}
+
+@media only screen and (max-width:500px ) {
+   
+}
